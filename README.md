@@ -1,3 +1,3 @@
 # Flow Fix
 
-🔗 [larsibl.github.io/flow-fix](https://larsibl.github.io/flow-fix) 🔗
+🔗 [larsibl.github.io/flow-fix](https://larsibl.github.io/flow-fix/) 🔗
