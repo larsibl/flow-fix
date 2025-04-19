@@ -10,7 +10,7 @@
   @reference "tailwindcss";
 
   :global(html) {
-    @apply bg-black h-full;
+    @apply bg-stone-950 h-full;
   }
 
   :global(body) {
