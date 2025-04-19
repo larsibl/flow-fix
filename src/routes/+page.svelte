@@ -1,13 +1,15 @@
 <script lang="ts">
-  import { Box, Grid } from '$lib/components';
+  import { Grid, Session } from '$lib/components';
 
-  let boxCount: number = $state(8);
+  let sessionCount: number = $state(8);
 </script>
 
 <main>
   <Grid>
-    {#each { length: boxCount }}
-      <Box />
+    {#each { length: sessionCount }, i}
+      <div>
+        <Session number={i + 1} />
+      </div>
     {/each}
   </Grid>
 </main>
@@ -17,5 +19,9 @@
 
   main {
     @apply flex flex-col h-full p-2 w-full;
+  }
+
+  div {
+    @apply flex items-center justify-center;
   }
 </style>
